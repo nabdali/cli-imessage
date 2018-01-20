@@ -1,0 +1,15 @@
+{
+  "name": "messagebot",
+  "version": "0.1.0",
+  "description": "A bot for iMessage",
+  "main": "index.js",
+  "author": "nabda",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "osa-imessage": "https://github.com/OtakuDigitChoc/osa-imessage#feature/sent-sms-not-imessage"
+  },
+  "bin": {
+    "imessage": "./index.js"
+  }
+}
